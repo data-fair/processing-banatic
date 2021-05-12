@@ -1,0 +1,234 @@
+[
+  {
+      "key": "Région_siège",
+      "x-originalName": "Région siège",
+      "type": "string",
+      "x-refersTo": "http://rdf.insee.fr/def/geo#codeRegion"
+    },
+    {
+      "key": "Département_siège",
+      "x-originalName": "Département siège",
+      "type": "string",
+      "x-refersTo": "http://rdf.insee.fr/def/geo#codeDepartement"
+    },
+    {
+      "key": "Arrondissement_siège",
+      "x-originalName": "Arrondissement siège",
+      "type": "string"
+    },
+    {
+      "key": "Commune_siège",
+      "x-originalName": "Commune siège",
+      "type": "string",
+      "x-refersTo": "http://schema.org/City"
+    },
+    {
+      "key": "N°_SIREN",
+      "x-originalName": "N° SIREN",
+      "type": "integer",
+      "x-refersTo": "http://dbpedia.org/ontology/siren"
+    },
+    {
+      "key": "Nom_du_groupement",
+      "x-originalName": "Nom du groupement",
+      "type": "string",
+      "x-refersTo": "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    {
+      "key": "Nature_juridique",
+      "x-originalName": "Nature juridique",
+      "type": "string",
+      "format": "uri-reference"
+    },
+    {
+      "key": "Syndicat_à_la_carte",
+      "x-originalName": "Syndicat à la carte",
+      "type": "boolean"
+    },
+    {
+      "key": "Groupement_interdépartemental",
+      "x-originalName": "Groupement interdépartemental",
+      "type": "boolean"
+    },
+    {
+      "key": "Date_de_création",
+      "x-originalName": "Date de création",
+      "type": "string",
+      "format": "date",
+      "x-refersTo": "https://schema.org/startDate"
+    },
+    {
+      "key": "Date_d'effet",
+      "x-originalName": "Date d'effet",
+      "type": "string",
+      "format": "date",
+      "x-refersTo": "http://schema.org/Date"
+    },
+    {
+      "key": "Mode_de_répartition_des_sièges",
+      "x-originalName": "Mode de répartition des sièges",
+      "type": "string",
+      "format": "uri-reference"
+    },
+    {
+      "key": "Autre_mode_de_répartition_des_sièges",
+      "x-originalName": "Autre mode de répartition des sièges",
+      "type": "string"
+    },
+    {
+      "key": "Nombre_de_membres",
+      "x-originalName": "Nombre de membres",
+      "type": "integer"
+    },
+    {
+      "key": "Population",
+      "x-originalName": "Population",
+      "type": "integer"
+    },
+    {
+      "key": "Nombre_de_compétences_exercées",
+      "x-originalName": "Nombre de compétences exercées",
+      "type": "integer"
+    },
+    {
+      "key": "Mode_de_financement",
+      "x-originalName": "Mode de financement",
+      "type": "string",
+      "format": "uri-reference"
+    },
+    {
+      "key": "DGF_Bonifiée",
+      "x-originalName": "DGF Bonifiée",
+      "type": "boolean"
+    },
+    {
+      "key": "DSC",
+      "x-originalName": "DSC",
+      "type": "boolean"
+    },
+    {
+      "key": "REOM",
+      "x-originalName": "REOM",
+      "type": "boolean"
+    },
+    {
+      "key": "Autre_redevance",
+      "x-originalName": "Autre redevance",
+      "type": "string"
+    },
+    {
+      "key": "TEOM",
+      "x-originalName": "TEOM",
+      "type": "boolean"
+    },
+    {
+      "key": "Autre_taxe",
+      "x-originalName": "Autre taxe",
+      "type": "string"
+    },
+    {
+      "key": "Civilité_Président",
+      "x-originalName": "Civilité Président",
+      "type": "string",
+      "format": "uri-reference"
+    },
+    {
+      "key": "Prénom_Président",
+      "x-originalName": "Prénom Président",
+      "type": "string"
+    },
+    {
+      "key": "Nom_Président",
+      "x-originalName": "Nom Président",
+      "type": "string"
+    },
+    {
+      "key": "Adresse_du_siège_1",
+      "x-originalName": "Adresse du siège_1",
+      "type": "string",
+      "x-refersTo": "http://schema.org/address"
+    },
+    {
+      "key": "Adresse_du_siège_2",
+      "x-originalName": "Adresse du siège_2",
+      "type": "string"
+    },
+    {
+      "key": "Adresse_du_siège_3",
+      "x-originalName": "Adresse du siège_3",
+      "type": "string"
+    },
+    {
+      "key": "Code_postal_du_siège_Ville_du_siège",
+      "x-originalName": "Code postal du siège Ville du siège",
+      "type": "string",
+      "x-refersTo": "http://schema.org/postalCode"
+    },
+    {
+      "key": "Téléphone_du_siège",
+      "x-originalName": "Téléphone du siège",
+      "type": "integer",
+      "x-refersTo": "https://www.w3.org/2006/vcard/ns#tel"
+    },
+    {
+      "key": "Fax_du_siège",
+      "x-originalName": "Fax du siège",
+      "type": "integer"
+    },
+    {
+      "key": "Courriel_du_siège",
+      "x-originalName": "Courriel du siège",
+      "type": "string",
+      "x-refersTo": "https://www.w3.org/2006/vcard/ns#email"
+    },
+    {
+      "key": "Site_internet",
+      "x-originalName": "Site internet",
+      "type": "string",
+      "x-refersTo": "https://schema.org/WebPage"
+    },
+    {
+      "key": "Adresse_annexe_1",
+      "x-originalName": "Adresse annexe_1",
+      "type": "string"
+    },
+    {
+      "key": "Adresse_annexe_2",
+      "x-originalName": "Adresse annexe_2",
+      "type": "string"
+    },
+    {
+      "key": "Adresse_annexe_3",
+      "x-originalName": "Adresse annexe_3",
+      "type": "string"
+    },
+    {
+      "key": "Code_postal_annexe_Ville_annexe",
+      "x-originalName": "Code postal annexe Ville annexe",
+      "type": "string"
+    },
+    {
+      "key": "Téléphone_annexe",
+      "x-originalName": "Téléphone annexe",
+      "type": "integer"
+    },
+    {
+      "key": "Fax_annexe",
+      "x-originalName": "Fax annexe",
+      "type": "integer"
+    },
+    {
+      "key": "Membres",
+      "x-originalName": "Membres",
+      "type": "string",
+      "format": "uri-reference",
+      "separator": "; "
+    },
+    {
+      "key": "Compétences",
+      "x-originalName": "Compétences",
+      "type": "string",
+      "format": "uri-reference",
+      "separator": "; "
+    }
+]

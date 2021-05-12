@@ -1,0 +1,33 @@
+{
+  "name": "@data-fair/processing-banatic",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint-fix": "eslint --ignore-path .gitignore --fix ."
+  },
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "data-fair-processings-plugin"
+  ],
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "config": "^3.3.6",
+    "eslint": "^7.18.0",
+    "mocha": "^8.2.1",
+    "standard": "^16.0.3"
+  },
+  "dependencies": {
+    "csv-parse": "^4.15.0",
+    "csv-stringify": "^5.6.1",
+    "form-data": "^4.0.0",
+    "fs-extra": "^9.1.0",
+    "iconv": "^3.0.0",
+    "moment": "^2.29.1",
+    "pump": "^3.0.0"
+  }
+}
