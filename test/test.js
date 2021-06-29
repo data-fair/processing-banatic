@@ -22,7 +22,7 @@ describe('Hello world processing', () => {
 
     const axiosInstance = axios.create({
       baseURL: config.dataFairUrl,
-      headers: { 'x-apiKey': config.dataFairAPIKey },
+      // headers: { 'x-apiKey': config.dataFairAPIKey },
       maxContentLength: Infinity,
       maxBodyLength: Infinity
     })

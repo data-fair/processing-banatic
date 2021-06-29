@@ -28,6 +28,7 @@
     "fs-extra": "^9.1.0",
     "iconv": "^3.0.0",
     "moment": "^2.29.1",
+    "polygon-clipping": "^0.15.3",
     "pump": "^3.0.0"
   }
 }

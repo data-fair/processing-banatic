@@ -8,7 +8,7 @@ exports.run = async ({ pluginConfig, processingConfig, processingId, dir, axios,
   const { process } = require('./lib/process')
   const datasetSchema = require('./resources/schema.json')
 
-  await clearFiles(dir, log)
+  // await clearFiles(dir, log)
   await download(dir, axios, log)
   await process(dir, log)
 

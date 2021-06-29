@@ -230,5 +230,11 @@
       "type": "string",
       "format": "uri-reference",
       "separator": "; "
+    },
+    {
+      "key": "representation_substitution",
+      "x-originalName": "Représentation Substitution",
+      "type": "boolean"
     }
+
 ]
